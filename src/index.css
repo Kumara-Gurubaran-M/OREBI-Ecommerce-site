@@ -178,6 +178,15 @@ img{
   height: 70px;
   align-items: center;
   border-bottom: 1px rgb(223, 220, 220) solid;
+  position:fixed;
+  /* Define the initial state before the transition starts */
+transform: translateY(0);
+
+/* Specify the transition properties */
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease-in-out;
+         
 }
 .navbar{
   text-decoration: none;
@@ -207,9 +216,7 @@ img{
   max-width: 100%;
   width: 100%;
 }
-.banner img:hover{
-  opacity: 0.9;
-}
+
 .banner-details{
   display: flex;
   justify-content: space-around;
