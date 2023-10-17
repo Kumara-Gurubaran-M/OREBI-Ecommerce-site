@@ -7,7 +7,7 @@ import store from "./component/redux/store"
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div >
         <Navbar />
         <Routing />
         <Footer />

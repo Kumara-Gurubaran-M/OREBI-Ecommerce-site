@@ -169,6 +169,7 @@ button{
 img{
   object-fit: cover;
 }
+
 /*-------------------Navbar-----------------------*/
 .nav{
   display: flex;
@@ -179,10 +180,7 @@ img{
   align-items: center;
   border-bottom: 1px rgb(223, 220, 220) solid;
   position:fixed;
-  /* Define the initial state before the transition starts */
 transform: translateY(0);
-
-/* Specify the transition properties */
 transition-property: transform;
 transition-duration: 0.3s;
 transition-timing-function: ease-in-out;
@@ -215,6 +213,7 @@ transition-timing-function: ease-in-out;
 .banner img{
   max-width: 100%;
   width: 100%;
+  padding-top: 69px;
 }
 
 .banner-details{
@@ -312,7 +311,9 @@ transition-timing-function: ease-in-out;
 }*/
 /*-------------------about/journal-----------------------*/
 .about{
+  
   padding: 50px;
+  padding-top: 75px;
 }
 
 .about-title{
@@ -366,7 +367,7 @@ transition-timing-function: ease-in-out;
 /*----------------details------------------------*/
 .details-section{
   margin:0 60px ;
-  padding-top: 50px;
+  padding-top: 100px;
   
 }
 .details-section .about-from{
@@ -496,6 +497,7 @@ form textarea{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 59px;
 }
 .cart-title-section{
 
